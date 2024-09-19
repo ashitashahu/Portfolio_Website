@@ -33,7 +33,7 @@
         <h3 class="text-animation">I'm a <span></span></h3>
         <p>
           I'm an aspiring Web Developer proficient in HTML, CSS,
-          JavaScript,React, Python, SQL, and MongoDB with a strong foundation in
+          JavaScript, React, Python, SQL, and MongoDB with a strong foundation in
           Data Structures and Algorithms (DSA). With over 1200 hours of coding
           and 500+ solved DSA problems, I excel in creating fully responsive
           websites that integrate front-end and back-end technologies. My strong
@@ -47,13 +47,13 @@
         </div>
 
         <div class="btn-group">
-          <a href="https://drive.google.com/file/d/17Rk5plnEtH2ACbzEyBvswD6qwnKruIn8/view?usp=sharing" class="btn">Download Resume</a>
-          <a href="#contact" class="btn">Contact</a>
+          <a href="https://drive.google.com/file/d/1zjvWokt8Yi84WM3_IK81rlvv1hdAHArA/view?usp=sharing" class="btn">Download Resume</a>
+          
         </div>
       </div>
 
       <div class="home-img">
-        <img src="./assets/myPhoto.jpg" alt="" />
+        <img src="./assets/my_photograph-removebg-preview.png" alt="" />
       </div>
     </section>
 
@@ -248,7 +248,46 @@
 </section>
 <!-- contact section ends here -->
 
+<!-- footer section starts -->
+<footer class="footer">
 
-    <script src="./script.js"></script>
+  <div class="footer-links" >
+      <a href="#home" class="footer-link">Home</a>
+      <div class="footer-divider"></div>
+      <a href="#education" class="footer-link">Education</a>
+      <div class="footer-divider"></div>
+      <a href="#skills" class="footer-link">Skills</a>
+      <div class="footer-divider"></div>
+      <a href="#projects" class="footer-link">Projects</a>
+      <div class="footer-divider"></div>
+      
+      <a href="#contact" class="footer-link">Contact</a>
+  </div>
+  <div class="footer-social" >
+      <button class="footer-social-btn">
+        <i class="fa-brands fa-linkedin" style="color: #f8f9fc;"></i>
+      </button>
+      <button class="footer-social-btn">
+        <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+      </button>
+      
+  </div>
+  <hr class="footer-divider-line" />
+  <p class="footer-copy">Copyright 2024 Portfolio | All Rights Reserved.</p>
+</footer>
+<!-- footer section ends here -->
+
+    <script src="./script.js">
+
+      
+        const menuIcon = document.getElementById("menu-icon");
+        const navbar = document.querySelector('.navbar');
+      
+        menuIcon.addEventListener('click', () => {
+          navbar.classList.toggle('active'); 
+        });
+      
+      
+    </script>
   </body>
 </html>
